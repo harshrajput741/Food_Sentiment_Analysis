@@ -6,7 +6,7 @@ import pandas as pd
 vectorizer = joblib.load('vectorizer.pkl')
 model = joblib.load('sentiment_model.pkl')
 st.set_page_config(layout = 'wide')
-st.sidebar.image('logo2.png')
+st.sidebar.image('food_logo.jpg')
 st.sidebar.title('About Project')
 st.sidebar.write('Objective of this project is to predict sentimentt (Neg/Posit)of food review')
 st.sidebar.title('Libraries')
